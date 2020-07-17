@@ -139,7 +139,7 @@ I was familiar with basic conditional formatting; however, when I started to do 
  
 5. When filter value is selected the information is not displayed on pivot chart.
 
-![FilterDisplay](graphics/FilterDisplay.png)
+![FilterDisplay](graphics/FilterDisplay.PNG)
 
 If the chart is missing or lacking a descriptive title the entire visualization can be misleading, especially when we save Excel charts in separate directories apart from corresponding pivot tables.
  
