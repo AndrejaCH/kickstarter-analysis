@@ -180,13 +180,13 @@ If the chart is missing or lacking a descriptive title, especially when we save 
  
 ### Recommendations for additional tables and graphs
 
-:pushpin: Using data bars on tables.
+:pushpin: Using data bars. 
 
 <p align="center">
-<img src="graphics/DataBars.PNG" width="40%" height="40%" title="Using data bars on tables gives at-a-glance analysis">
+<img src="graphics/DataBars.PNG" width="40%" height="40%" alt="??" title="Using data bars">
 </p>
           
-Using data bars on tables gives us at-a-glance look-up of data and we can easily see what data stands out.
+Using data bars on tables gives us at-a-glance analysis and we can easily see what data stands out.
 
 :pushpin: Pivot tables and charts with additional filters.
 Adding additional filter to a table *Theater outcome based on launch date* (see the table at the begining of this report). By adding additional filter, we could easily compare these categories by country.
@@ -209,7 +209,9 @@ Adding additional filter to a table *Theater outcome based on launch date* (see 
 ### Additional useful articles
 
 [Understanding Quartiles](https://www.investopedia.com/terms/q/quartile.asp#:~:text=First%20quartile%3A%20the%20lowest%2025,the%20highest%2025%25%20of%20numbers)
+
 [Outliers](https://medium.com/mytake/why-1-5-in-iqr-method-of-outlier-detection-5d07fdc82097)
+
 [IQR](https://www.thoughtco.com/what-is-the-interquartile-range-rule-3126244)
 
  
