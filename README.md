@@ -17,10 +17,9 @@ For this data analysis I am using ***MS Excel*** as a tool, that includes **inte
 ### Purpose
 The purpose of this analysis is to help playwriter Louise with her decisions in applying for the crowdfunding campaign Kickstarter. Her campaign *Fever* is a theater play at an estimated cost of roughly *$10,000*. She is wondering where she stands with her goal, how successful are campaigns with a similar budget and when is a good time to launch the campaign. She is interested in the US and GB theater market, specifically in plays and musicals respectively; therefore, part of this analysis focuses on those fields as well.
 
-<kbd>
-In this report :bulb: symbol is used to guide Louise’s decision based on this data analysis.
-</kbd>
- 
+
+```In this report``` :bulb: ```symbol is used to guide Louise’s decision based on this data analysis.```
+
 <kbd>
 <p align="center">
 <img src="graphics/FeverBudget.PNG" width="50%" height="50%">
@@ -31,11 +30,11 @@ In this report :bulb: symbol is used to guide Louise’s decision based on this 
 ### Analysis of Outcomes Based on Launch Date
 In this analysis, I created an interactive pivot table and a line chart that can be filtered by parent category and years. The chart **Theater Outcomes Based on Launch Date** has months on x-axis and count of outcomes on y-axis. Pivot table and chart are created from the selection of the entire dataset. Next, I added selected variables by dragging and dropping into chart fields and set up filters on the data that I wanted to drill-down.
 
-<kbd>
+
 <p align="center">
-<img src="graphics/CreatingPivotChartAndTable.PNG" width="30%" height="5%">
+<img src="graphics/CreatingPivotChartAndTable.PNG" width="15%" height="15%">
 </p>
-</kbd>
+
 
 From the chart, we can see that May and June are the best months to start the campaign. There were 111 (67%) and 100 (65%) successful campaigns, respectively. The number of successful campaigns significantly declined in December; only 37 (49%) successful campaigns in this month. Moreover, May and June have a higher volume of campaigns, 166 (12%) and 153 (11%) respectively, while December has the lowest volume of campaigns at 75 (5%). Another interesting observation is the overall success rate of theater campaigns at 61%.
 
@@ -43,9 +42,9 @@ From the chart, we can see that May and June are the best months to start the ca
 <img src="resources/Theater_Outcomes_vs_Launch.PNG" width="70%" height="50%">
 </p>
 
-<kbd>
-:bulb: This data analysis can help playwriter Louise decide when is a good time to start a campaign. She can plan accordingly in order to increase her chances of success.
-</kbd>
+
+:bulb: ```This data analysis can help playwriter Louise decide when is a good time to start a campaign. She can plan accordingly in order to increase her chances of success.```
+
 
 ### Analysis of Outcomes Based on Goals
 In this analysis, I created a table to count theater plays campaigns based on their outcome and goal range. For calculations, I used `COUNTIFS()` formula, which consists of three conditions `subcategory`, `range`, and `outcome`. Next, I used `SUM()` formula to calculate total projects for each goal range. Additionally, I calculated the corresponding percentages for outcomes and used cell formatting to convert numbers into % and round them to the nearest integer. 
@@ -56,54 +55,48 @@ In this analysis, I created a table to count theater plays campaigns based on th
 
 The table and chart *Outcomes Based on Goals* reveals which goal range has a higher % of successful campaigns. Campaigns with a goal of less than $1000 and a goal range between $5000 to $9999 have a higher success rate 76% and 73% respectively, while campaigns with the goal above $45,000 have a lower success rate at 13%.
 
-<kbd>
-:bulb: Louise’s project falls in goal range between $10,000 and $15,000. The success rate in this range is 54%. However, the volume of total campaigns in this range is not very high. Only 72 (7%) campaigns are in this range. For comparison, one range below her budget ($5,000 to $9,999) has a similar success rate at 55%, and the volume at 169 (16%) total.
-</kbd>
+
+:bulb: ```Louise’s project falls in goal range between $10,000 and $15,000. The success rate in this range is 54%. However, the volume of total campaigns in this range is not very high. Only 72 (7%) campaigns are in this range. For comparison, one range below her budget ($5,000 to $9,999) has a similar success rate at 55%, and the volume at 169 (16%) total.```
 
 ### Other Support Analysis
 #### Parent Category Analysis
 In this analysis, I used pivot table and interactive stacked column chart that can be filtered by county and it is organized in descending order. **Parent Category Statistic** chart is simple, yet very descriptive and clearly shows how **theater** campaigns stand out against other categories. Theater campaigns have a higher volume of 1393 (34%) campaigns and a high success rate: 893 successful compare to 493 failed campaigns.
 
 <p align="center">
-<img src="graphics/Parent_Category_Outcomes.png" width="70%" height="50%">
+<img src="graphics/Parent_Category_Outcomes.png" width="40%" height="40%">
 </p>
 
-<kbd>
-:bulb: Louise can confidently continue with planning for her theater campaign. However, let’s take a closer look at theater plays (specifically) in the next paragraph.
-</kbd>
+:bulb: ```Louise can confidently continue with planning for her theater campaign. However, let’s take a closer look at theater plays (specifically) in the next paragraph.```
 
 #### Subcategory Analysis
 In this analysis, I used pivot table and interactive stacked column chart that can be filtered by county and by parent category. From the chart, we can see that plays stand out, by volume and by success, with a total of 1066 projects (77%), and a high success rate of 694 successful campaigns compare to 353 failed campaigns.
 
 <p align="center">
-<img src="graphics/Subcategory_Outcomes.png" width="70%" height="50%">
+<img src="graphics/Subcategory_Outcomes.png" width="50%" height="50%">
 </p>
 
-This chart has set an additional filter *parent category*. With this filter, we can drill-down information that we are interested in. We can see how plays are performing against other campaigns in the same category. This is very helpful when we want to focus on specific fields – plays in this case.
+This chart has set an additional filter *parent category*. With this **filter**, we can **drill-down** information that we are interested in. We can see how plays are performing against other campaigns in the same category. This is very helpful when we want to focus on specific fields – plays in this case.
 
 <p align="center">
-<img src="graphics/TheaterSubcategories_Outcomes.png" width="70%" height="50%">
+<img src="graphics/TheaterSubcategories_Outcomes.png" width="40%" height="40%">
 </p>
 
 
-<kbd>
-:bulb: This is another good news for playwriter Louise. So far, data analysis tells that Louise is in good standing, since plays have positive outcomes compare to other campaigns. Yet, there are some other statistical approaches that can reveal additional information.
-</kbd>
+:bulb: ```This is another good news for playwriter Louise. So far, data analysis tells that Louise is in good standing, since plays have positive outcomes compare to other campaigns. Yet, there are some other statistical approaches that can reveal additional information.```
 
 #### V-Look-Up Analysis for Specific Theater Plays in GB
 In this analysis, I used `VLOOKUP()` formula. This formula returns matches based on a key value. It is a powerful tool that can quickly find and return numbers of data in an organized table. In the link that follows is a table where we can find only selected data that we want to focus on for this particular analysis.
 
 ![Edinburg_Research](StarterBook.xlsx)
 
-<kbd>
-:bulb: In this at-a-glance analysis, Louise can compare her own campaign with the plays she saw at the Edinburg Festival in GB. The table provides a quick look-up about goals and pledges, an average donation, and the number of backers.
-</kbd>
+
+:bulb: ```In this at-a-glance analysis, Louise can compare her own campaign with the plays she saw at the Edinburg Festival in GB. The table provides a quick look-up about goals and pledges, an average donation, and the number of backers.```
 
 #### Measure of Central Tendency Analysis for US Theater Plays Market
 In this analysis, I used **measures of central tendency** to calculate mean and median, and **measures of spread** to calculate standard deviation, lower and upper quartiles, and IQR for US market in theater plays. I compared successful and failed campaigns based on their goals and pledges. Excel has integrated formulas to calculate these measures which make calculations fairly easy. Form the table below we can see the nature of these formulas.
 
 <p align="center">
-<img src="graphics/DescriptiveStatistics.PNG" width="70%" height="50%">
+<img src="graphics/DescriptiveStatistics.PNG" width="40%" height="40%">
 </p>
 
 - **Mean** in successful campaigns is **lower** ($5,049) than in failed campaigns ($10,554). This information tells that too high of a goal can be one of the reasons why campaigns might fail (campaigns are asking for too much money).
@@ -114,12 +107,11 @@ In this analysis, I used **measures of central tendency** to calculate mean and 
 
 - **IQR** ($8,000) of goals in failed campaigns **is 3-times the value of standard deviation** ($21,968), which points to extreme value(s). I used `MAX()` formula, which returns the maximum value of the chosen array, in this case, $180,000.
  
-<kbd>
-:bulb: This analysis is a bit game-changer for Louise’s campaign. The goal for her campaign is set too high, about twice the average of successful campaigns. This fact reduces the possibility for her success. 
-</kbd>
+:bulb: ```This analysis is a bit game-changer for Louise’s campaign. The goal for her campaign is set too high, about twice the average of successful campaigns. This fact reduces the possibility for her success.```
  
 #### Box and Whiskers (Quartile and Outliers) Analysis for GB Musicals Market
-In this analysis I used the Box and Whiskers chart for GB Musical Market, to find any potential outliers, that might be irrelevant for our analysis. I compared campaign goals and pledges. Excel offers tools to create this plot fairly simple. The first step is selecting data we want to analyze from the dataset, next is to find a “Box and Whiskers” plots in Insert Tab and finally make any changes to the plot. A full explanation about this plot is on the link that follows and findings are written below the link.
+In this analysis I used the Box and Whiskers chart for GB Musical Market, to find any potential outliers, that might be irrelevant for our analysis. I compared campaign goals and pledges. Excel offers tools to create this plot fairly simple. The first step is selecting data we want to analyze from the dataset, next is to find a “Box and Whiskers” plots in Insert Tab and finally make any changes to the plot. 
+A full explanation about this plot is on the link that follows and findings are written below the link.
 
 ![Box and Whiskers (Quartile and Outliers) Analysis for GB Musicals Market](graphics/BoxandWhiskers.pdf)
 
@@ -128,9 +120,7 @@ From the plot we can read the following information:
 - Goal mean is at £4,000 and outside of IQR of amount pledged at £3,000.
 - The lower quartile of pledges lays on y-axis and indicates that 25% of those campaigns did not get any fundings.
 
-<kbd>
-:bulb: Louise is interested in GB Musicals for her future campaign in GB at an estimated cost of £4,000. This analysis shows that she has better chances if she reduces her goal to around £2,000.
-</kbd>
+:bulb: ```Louise is interested in GB Musicals for her future campaign in GB at an estimated cost of £4,000. This analysis shows that she has better chances if she reduces her goal to around £2,000.```
 
 ### Challenges and Difficulties Encountered
 I found the written part of the analysis the most challenging. It takes a lot of effort to tell a meaningful story and to write a clear and easy-to-understand analysis report. I did encounter some technical problems; however, the “coding” community have been helping me overcome those challenges. This community is very active and helpful, so thanks to #StackOverflow #BSC Lessons and #Slack community, making the technical part much easier. 
@@ -149,14 +139,14 @@ I do have a basic understanding of those measures; however, this time I wanted t
 One of the technical problems I encounter was sorting the pivot table by descending or ascending order. I knew how to sort rows in the spreadsheet, but was unfamiliar with this task in pivot table. At first, I thought that sorting pivot table is not able to control. Thanks to the lecture I realized that I can control this and realized how visualization looks organized.
 
 <p align="center">
-<img src="graphics/SortingPivotChart.PNG" width="70%" height="50%">
+<img src="graphics/SortingPivotChart.PNG" width="40%" height="40%">
 </p>
 
 #### Conditional Formatting
 I was familiar with basic conditional formatting; however, when I started to do a bit more research on it, I discover a very convenient button `manage rules` that can be found in Home Tab -> Conditional Formatting drop-down menu -> Manage Rules. I was able to manage conditional formatting rules more efficiently.
 
 <p align="center">
-<img src="graphics/ManageRules.png" width="70%" height="50%">
+<img src="graphics/ManageRules.png" width="40%" height="40%">
 </p>
 
 ## Results
@@ -184,14 +174,17 @@ I was familiar with basic conditional formatting; however, when I started to do 
 
 ### limitations of the dataset
 :exclamation:This dataset -- .xlxs or Excel file -- is a *flat-file* and is mainly used for preparatory data analysis and visualization. It is a great tool indeed since doesn’t require a specific query language to retrieve data, it is widely used, easy to learn, and very versatile, since covers many fields of the data pipeline: exploratory data analysis, data validation, data visualization, and data analysis. These are great aspects but have some drawbacks as well. As mentioned above, Excel is a *flat-file* where data is separated by commas or tabs, with one record per line without internal hierarchy (3); therefore, those files are not meant for deeper analysis rather for ‘at-a-glance summary metrics’ (4). 
+
 :exclamation:Duplicates and multiple versions of datasets are one of the biggest issues of data accuracy. Excel files are easy (and it is done more than has to be) to duplicate what can lead to inaccuracy and referring to outdated data.
+
 :exclamation:Multiple access problem. Excel files are inconvenient when multiple people need to work on the same excel file at the same time.
+
 :exclamation:Not suitable for a large amount of data. Excel has limitation of 1,048,576 rows and 16,384 XFD columns.
  
 :exclamation:When filter value is selected the information is not displayed on pivot chart.
 
 <p align="center">
-<img src="graphics/FilterDisplay.PNG" width="70%" height="50%">
+<img src="graphics/FilterDisplay.PNG" width="40%" height="40%">
 </p>
 
 If the chart is missing or lacking a descriptive title the entire visualization can be misleading, especially when we save Excel charts in separate directories apart from corresponding pivot tables.
@@ -201,7 +194,7 @@ If the chart is missing or lacking a descriptive title the entire visualization 
 :pushpin: Tables using % and data bars
 
 <p align="center">
-<img src="graphics/DataBars.PNG" width="70%" height="50%">
+<img src="graphics/DataBars.PNG" width="40%" height="40%">
 </p>
           
 Using data bars on tables gives us at-a-glance look-up of data and we can easily see what data stands out.
@@ -214,7 +207,7 @@ Performing additional analysis in order to find more patterns and trends, for ex
 - Analyzing the length of campaigns (launched date vs. deadline to outcome) with campaign outcome.
 - Look for a correlation between backers count, average donation and campaign outcome
 
-:pushpin: pie charts and dot charts
+:pushpin: Pie charts and dot charts
 We could use those charts for data that contain less information. For example for theater plays outcome. 
 
  
