@@ -19,8 +19,10 @@ The purpose of this analysis is to help playwriter Louise with her decisions in 
 
 In this report :bulb: symbol is used to guide Louise’s decision based on this data analysis.
 
+<p align="center">
 <img src="graphics/FeverBudget.PNG" width="50%" height="50%">
- 
+</p>
+
 ## Analysis and Challenges
 ### Analysis of Outcomes Based on Launch Date
 In this analysis, I created an interactive pivot table and a line chart that can be filtered by parent category and years. The chart ** Theater Outcomes Based on Launch Date ** has months on x-axis and count of outcomes on y-axis. Pivot table and chart are created from the selection of the entire dataset. Next, I added selected variables by dragging and dropping into chart fields and set up filters on the data that I wanted to drill-down.
