@@ -103,7 +103,7 @@ In this analysis I used the Box and Whiskers chart for GB Musical Market, to fin
 A full explanation about this plot is on the link that follows and findings are written below the link.
 
 <p align="center">
-<img src="graphics/graphics/BoxandWhiskersGB" width="40%" height="40%">
+<img src="graphics/BoxandWhiskersGB.PNG" width="40%" height="40%">
 </p>
 
 ![Box and Whiskers (Quartile and Outliers) Analysis for GB Musicals Market](graphics/BoxandWhiskers.pdf)
