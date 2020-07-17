@@ -102,6 +102,10 @@ In this analysis, I used **measures of central tendency** to calculate mean and 
 In this analysis I used the Box and Whiskers chart for GB Musical Market, to find any potential outliers, that might be irrelevant for our analysis. I compared campaign goals and pledges. Excel offers tools to create this plot fairly simple. The first step is selecting data we want to analyze from the dataset, next is to find a “Box and Whiskers” plots in Insert Tab and finally make any changes to the plot. 
 A full explanation about this plot is on the link that follows and findings are written below the link.
 
+<p align="center">
+<img src="graphics/graphics/BoxandWhiskersGB" width="40%" height="40%">
+</p>
+
 ![Box and Whiskers (Quartile and Outliers) Analysis for GB Musicals Market](graphics/BoxandWhiskers.pdf)
 
 From the plot we can read the following information:
