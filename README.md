@@ -26,11 +26,13 @@ In this report :bulb: symbol is used to guide Louise’s decision based on this 
 ## Analysis and Challenges
 ### Analysis of Outcomes Based on Launch Date
 In this analysis, I created an interactive pivot table and a line chart that can be filtered by parent category and years. The chart ** Theater Outcomes Based on Launch Date ** has months on x-axis and count of outcomes on y-axis. Pivot table and chart are created from the selection of the entire dataset. Next, I added selected variables by dragging and dropping into chart fields and set up filters on the data that I wanted to drill-down.
-![Creating Pivot Table](graphics/CreatingPivotChartAndTable.PNG)
+
+<img src="graphics/CreatingPivotChartAndTable.PNG" width="30%" height="10%">
+
 From the chart, we can see that May and June are the best months to start the campaign. There were 111 (67%) and 100 (65%) successful campaigns, respectively. The number of successful campaigns significantly declined in December; only 37 (49%) successful campaigns in this month. Moreover, May and June have a higher volume of campaigns, 166 (12%) and 153 (11%) respectively, while December has the lowest volume of campaigns at 75 (5%). Another interesting observation is the overall success rate of theater campaigns at 61%.
-
-![Theater Outcomes based on Launch Date](resources/Theater_Outcomes_vs_Launch.PNG)
-
+<p align="center">
+<img src="resources/Theater_Outcomes_vs_Launch.PNG" width="60%" height="50%">
+</p>
 :bulb: This data analysis can help playwriter Louise decide when is a good time to start a campaign. She can plan accordingly in order to increase her chances of success.
 
 ### Analysis of Outcomes Based on Goals
