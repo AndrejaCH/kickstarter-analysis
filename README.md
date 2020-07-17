@@ -16,8 +16,10 @@ For this data analysis I am using ***MS Excel*** as a tool, that includes *inter
 
 ### Purpose
 The purpose of this analysis is to help playwriter Louise with her decisions in applying for the crowdfunding campaign Kickstarter. Her campaign *Fever* is a theater play at an estimated cost of roughly *$10,000*. She is wondering where she stands with her goal, how successful are campaigns with a similar budget and when is a good time to launch the campaign. She is interested in the US and GB theater market, specifically in plays and musicals respectively; therefore, part of this analysis focuses on those fields as well.
+
 In this report :bulb: symbol is used to guide Louise’s decision based on this data analysis.
-![Louise’s Budget for play Fever](graphics/FeverBudget.PNG)
+
+<img src="graphics/FeverBudget.PNG" width="50%" height="50%">
  
 ## Analysis and Challenges
 ### Analysis of Outcomes Based on Launch Date
