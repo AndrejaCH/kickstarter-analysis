@@ -17,7 +17,6 @@ For this data analysis I am using ***MS Excel*** as a tool, that includes **inte
 ### Purpose
 The purpose of this analysis is to help playwriter Louise with her decisions in applying for the crowdfunding campaign Kickstarter. Her campaign *Fever* is a theater play at an estimated cost of roughly *$10,000*. She is wondering where she stands with her goal, how successful are campaigns with a similar budget and when is a good time to launch the campaign. She is interested in the US and GB theater market, specifically in plays and musicals respectively; therefore, part of this analysis focuses on those fields as well.
 
-
 ```In this report``` :bulb: ```symbol is used to guide Louise’s decision based on this data analysis.```
 
 <kbd>
@@ -29,12 +28,6 @@ The purpose of this analysis is to help playwriter Louise with her decisions in 
 ## Analysis and Challenges
 ### Analysis of Outcomes Based on Launch Date
 In this analysis, I created an interactive pivot table and a line chart that can be filtered by parent category and years. The chart **Theater Outcomes Based on Launch Date** has months on x-axis and count of outcomes on y-axis. Pivot table and chart are created from the selection of the entire dataset. Next, I added selected variables by dragging and dropping into chart fields and set up filters on the data that I wanted to drill-down.
-
-
-<p align="center">
-<img src="graphics/CreatingPivotChartAndTable.PNG" width="15%" height="15%">
-</p>
-
 
 From the chart, we can see that May and June are the best months to start the campaign. There were 111 (67%) and 100 (65%) successful campaigns, respectively. The number of successful campaigns significantly declined in December; only 37 (49%) successful campaigns in this month. Moreover, May and June have a higher volume of campaigns, 166 (12%) and 153 (11%) respectively, while December has the lowest volume of campaigns at 75 (5%). Another interesting observation is the overall success rate of theater campaigns at 61%.
 
@@ -99,7 +92,7 @@ In this analysis, I used **measures of central tendency** to calculate mean and 
 - **High difference between mean** ($10,554) and **median** ($5,000) in failed goals, indicates that distribution is highly skewed, meaning that some extreme values are pulling the mean higher and increasing the gap between mean and median.
 - **Low mean and median** in pledged amounts for failed campaigns compare to mean and median in successful campaigns indicates that:
 
->failed campaigns are unsuccessful for reasons other than asking for too much money. In other words, if the failed projects were also getting a median pledge amount of around $3,000, it's possible that those that failed just asked for too high of a price. Since the median is much lower, there must be another factor keeping people from pledging to those unsuccessful projects (1). 
+>Failed campaigns are unsuccessful for reasons other than asking for too much money. In other words, if the failed projects were also getting a median pledge amount of around $3,000, it's possible that those that failed just asked for too high of a price. Since the median is much lower, there must be another factor keeping people from pledging to those unsuccessful projects (1). 
 
 - **IQR** ($8,000) of goals in failed campaigns **is 3-times the value of standard deviation** ($21,968), which points to extreme value(s). I used `MAX()` formula, which returns the maximum value of the chosen array, in this case, $180,000.
  
@@ -119,7 +112,7 @@ From the plot we can read the following information:
 :bulb: ```Louise is interested in GB Musicals for her future campaign in GB at an estimated cost of £4,000. This analysis shows that she has better chances if she reduces her goal to around £2,000.```
 
 ### Challenges and Difficulties Encountered
-I found the written part of the analysis the most challenging. It takes a lot of effort to tell a meaningful story and to write a clear and easy-to-understand analysis report. I did encounter some technical problems; however, the “coding” community have been helping me overcome those challenges. This community is very active and helpful, so thanks to #StackOverflow #BSC Lessons and #Slack community, making the technical part much easier. 
+I found the written part of the analysis the most challenging. It takes a lot of effort to tell a meaningful story and to write a clear and easy-to-understand analysis report. I did encounter some technical problems; however, the “coding” community have been helping me overcome those challenges. This community is very active and helpful, so thanks to @StackOverflow @BSC Lessons and #Slack community, making the technical part much easier. 
 
 #### Written Repot and understanding terminology
 This was my biggest challenge. I am aware how important is communication and I really wanted to give it a good start. I overcome this challenge to devote extra time to it, re-read lessons and pre-work and look for explanations in external articles. I believe that it will become easier over time and practice. Here is a piece of advice that I came across in modules: 
@@ -128,7 +121,7 @@ This was my biggest challenge. I am aware how important is communication and I r
 
 Seems pretty straight forward advice, but really makes analysis much easier. Also constantly asking myself questions as in: *What do I want to tell with this analysis? Do I understand the data on charts and tables? What this information is telling me? Is this information relevant or rather confusing?* had helped me stayed on the right path.
 
-#### Understanding the Measures of Central Tendency and Measures of Spread.
+#### Understanding the Measures of Central Tendency and Measures of Spread
 I do have a basic understanding of those measures; however, this time I wanted to gain a deeper understanding. Doing this analysis and reading more about had helped me better understand those measures and put them into practice. The way I overcome this challenge is reading about it, performing additional analysis, compare numbers, and looking for patterns.
 
 #### Sorting Pivot Chart
@@ -146,7 +139,7 @@ I was familiar with basic conditional formatting; however, when I started to do 
 </p>
 
 ## Results
-### Conclusions about the Theater Outcomes based on Launch Date.
+### Conclusions about the Theater Outcomes based on Launch Date
 - [x] May and June have 111 (67%) and 100 (65%) successful campaigns respectively.
 - [x] December has 37 (49%) successful campaigns.
 - [x] May and June have a total of 166 (12%) and 153 (11%) campaigns, respectively.
@@ -157,7 +150,7 @@ I was familiar with basic conditional formatting; however, when I started to do 
 
 :heavy_check_mark: More campaigns are launched in May and June than in December.
 
-### Conclusions about the Outcomes based on Goals for Theater Plays.
+### Conclusions about the Outcomes based on Goals for Theater Plays
 - [x] Campaigns with a set goal under $1,000 have a 76% success rate.
 - [x] Campaigns with a set goal between $5,000 to $9,999 have a 73% success rate.
 - [x] Campaigns with a set goal of over $50,000 have a 13% success rate.
@@ -168,7 +161,7 @@ I was familiar with basic conditional formatting; however, when I started to do 
 
 :heavy_check_mark: There are significant more campaigns with a set goal under $25,000 than campaigns above $25,000.
 
-### limitations of the dataset
+### Limitations of the dataset
 :exclamation:This dataset -- .xlxs or Excel file -- is a *flat-file* and is mainly used for preparatory data analysis and visualization. It is a great tool indeed since doesn’t require a specific query language to retrieve data, it is widely used, easy to learn, and very versatile, since covers many fields of the data pipeline: exploratory data analysis, data validation, data visualization, and data analysis. These are great aspects but have some drawbacks as well. As mentioned above, Excel is a *flat-file* where data is separated by commas or tabs, with one record per line without internal hierarchy (3); therefore, those files are not meant for deeper analysis rather for ‘at-a-glance summary metrics’ (4). 
 
 :exclamation:Duplicates and multiple versions of datasets are one of the biggest issues of data accuracy. Excel files are easy (and it is done more than has to be) to duplicate what can lead to inaccuracy and referring to outdated data.
@@ -177,36 +170,33 @@ I was familiar with basic conditional formatting; however, when I started to do 
 
 :exclamation:Not suitable for a large amount of data. Excel has limitation of 1,048,576 rows and 16,384 XFD columns.
  
-:exclamation:When filter value is selected the information is not displayed on pivot chart.
+:exclamation:When filter value is selected this information is not displayed on pivot chart.
 
 <p align="center">
 <img src="graphics/FilterDisplay.PNG" width="40%" height="40%">
 </p>
 
-If the chart is missing or lacking a descriptive title the entire visualization can be misleading, especially when we save Excel charts in separate directories apart from corresponding pivot tables.
+If the chart is missing or lacking a descriptive title, especially when we save Pivot charts in separate directories apart from corresponding pivot tables, visualization can be misleading if we don't see which filter is selected. 
  
-### recommendations for additional tables and graphs
+### Recommendations for additional tables and graphs
 
-:pushpin: Tables using % and data bars
+:pushpin: Using data bars on tables.
 
 <p align="center">
-<img src="graphics/DataBars.PNG" width="40%" height="40%">
+<img src="graphics/DataBars.PNG" width="40%" height="40%" title="Using data bars on tables gives at-a-glance analysis">
 </p>
           
 Using data bars on tables gives us at-a-glance look-up of data and we can easily see what data stands out.
 
 :pushpin: Pivot tables and charts with additional filters.
-Adding additional filter to a table *Theater outcome based on launch date – put relative link here*  form one of the previous analysis. By adding additional filter, we could easily compare these categories per country.
+Adding additional filter to a table *Theater outcome based on launch date* (see the table at the begining of this report). By adding additional filter, we could easily compare these categories by country.
 
-:pushpin: Additional analysis
-Performing additional analysis in order to find more patterns and trends, for example:
-- Analyzing the length of campaigns (launched date vs. deadline to outcome) with campaign outcome.
-- Look for a correlation between backers count, average donation and campaign outcome
+:pushpin: Additional analysis in order to find more patterns and trends, for example:
+- Is there a correlation between the length of campaigns (launched date vs. deadline to outcome) and their outcome.
+- Is there a correlation between backers count, average donation and campaign outcome.
 
-:pushpin: Pie charts and dot charts
-We could use those charts for data that contain less information. For example for theater plays outcome. 
+:pushpin: Pie charts and dot charts. We could use those charts for data that contain less information. For example for theater plays outcome. 
 
- 
 ## Resources
 (1)    “Module 1: Kickstarting with Excel., Measures of Central Tendency”, https://courses.bootcampspot.com/courses/200/pages/1-dot-5-1-measures-of-central-tendency?module_item_id=57341, Trilogy Education Services, 2000. Web 15 Jul 2020.)
 
@@ -216,12 +206,10 @@ We could use those charts for data that contain less information. For example fo
 
 (4)    “Flat File.” https://www.techopedia.com/definition/25956/flat-file, n.d., n.p., Web 14 Jul 2020.
 
-### Additional useful articles:
+### Additional useful articles
 
 [Understanding Quartiles](https://www.investopedia.com/terms/q/quartile.asp#:~:text=First%20quartile%3A%20the%20lowest%2025,the%20highest%2025%25%20of%20numbers)
-
 [Outliers](https://medium.com/mytake/why-1-5-in-iqr-method-of-outlier-detection-5d07fdc82097)
-
 [IQR](https://www.thoughtco.com/what-is-the-interquartile-range-rule-3126244)
 
  
