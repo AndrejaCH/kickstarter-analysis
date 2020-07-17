@@ -221,12 +221,12 @@ We could use those charts for data that contain less information. For example fo
 (4)    “Flat File.” https://www.techopedia.com/definition/25956/flat-file, n.d., n.p., Web 14 Jul 2020.
 
 ### Additional useful articles:
-[The difference between quartile and percentile](https://docs.tibco.com/pub/spotfire/7.0.1/doc/html/stat/stat_percentiles_and_quartiles.htm#:~:text=A%20percentile%20is%20a%20measure,as%20or%20below%20that%20measure.&text=The%20first%20quartile%20(or%20lower,as%20the%20twenty%2Dfifth%20percentile.)
 
 [Understanding Quartiles](https://www.investopedia.com/terms/q/quartile.asp#:~:text=First%20quartile%3A%20the%20lowest%2025,the%20highest%2025%25%20of%20numbers)
 
 [Outliers](https://medium.com/mytake/why-1-5-in-iqr-method-of-outlier-detection-5d07fdc82097)
 
 [IQR](https://www.thoughtco.com/what-is-the-interquartile-range-rule-3126244)
+
  
 
