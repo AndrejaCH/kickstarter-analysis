@@ -64,9 +64,11 @@ In this analysis, I used pivot table and interactive stacked column chart that c
 #### Subcategory Analysis
 In this analysis, I used pivot table and interactive stacked column chart that can be filtered by county and by parent category. From the chart, we can see that plays stand out, by volume and by success, with a total of 1066 projects (77%), and a high success rate of 694 successful campaigns compare to 353 failed campaigns.
 
-
+<kbd>
+<p align="center">
 <img src="graphics/Subcategory_Outcomes.png" width="40%" height="40%">  <img src="graphics/TheaterSubcategories_Outcomes.png" width="40%" height="40%">
-
+</p>
+</kbd>
 
 This chart has set an additional filter *parent category*. With this **filter**, we can **drill-down** information that we are interested in. We can see how plays are performing against other campaigns in the same category. This is very helpful when we want to focus on specific fields – plays in this case.
 
