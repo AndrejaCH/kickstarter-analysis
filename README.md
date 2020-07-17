@@ -27,7 +27,9 @@ In this report :bulb: symbol is used to guide Louise’s decision based on this 
 ### Analysis of Outcomes Based on Launch Date
 In this analysis, I created an interactive pivot table and a line chart that can be filtered by parent category and years. The chart ** Theater Outcomes Based on Launch Date ** has months on x-axis and count of outcomes on y-axis. Pivot table and chart are created from the selection of the entire dataset. Next, I added selected variables by dragging and dropping into chart fields and set up filters on the data that I wanted to drill-down.
 
+<p align="center">
 <img src="graphics/CreatingPivotChartAndTable.PNG" width="30%" height="10%">
+</p>
 
 From the chart, we can see that May and June are the best months to start the campaign. There were 111 (67%) and 100 (65%) successful campaigns, respectively. The number of successful campaigns significantly declined in December; only 37 (49%) successful campaigns in this month. Moreover, May and June have a higher volume of campaigns, 166 (12%) and 153 (11%) respectively, while December has the lowest volume of campaigns at 75 (5%). Another interesting observation is the overall success rate of theater campaigns at 61%.
 <p align="center">
@@ -125,6 +127,7 @@ I was familiar with basic conditional formatting; however, when I started to do 
 - [x] Overall success rate of theater campaigns is 61%.
 
 :heavy_check_mark: Campaigns launched in May and June has a higher success rate than campaigns launched in December.
+
 :heavy_check_mark: More campaigns are launched in May and June than in December.
 
 ### Conclusions about the Outcomes based on Goals for Theater Plays.
@@ -135,6 +138,7 @@ I was familiar with basic conditional formatting; however, when I started to do 
 - [x] 4% of all campaigns are above a set goal of $25,000.
 
 :heavy_check_mark: Campaigns with a set goal under $1,000 has higher success rate than campaigns with a set goal over $50,000.
+
 :heavy_check_mark: There are significant more campaigns with a set goal under $25,000 than campaigns above $25,000.
 
 ### limitations of the dataset
@@ -169,8 +173,11 @@ We could use those charts for data that contain less information. For example fo
  
 ## Resources
 (1)    “Module 1: Kickstarting with Excel., Measures of Central Tendency”, https://courses.bootcampspot.com/courses/200/pages/1-dot-5-1-measures-of-central-tendency?module_item_id=57341, Trilogy Education Services, 2000. Web 15 Jul 2020.)
+
 (2)    “Module 1: Kickstarting with Excel.” https://courses.bootcampspot.com/courses/200/pages/1-dot-2-2-initial-look-at-the-data?module_item_id=57314, Trilogy Education Services, 2000. Web 14 Jul 2020.
+
 (3)    “Module 1: Kickstarting with Excel.” https://courses.bootcampspot.com/courses/, Trilogy Education Services, 2000. Web 14 Jul 2020.
+
 (4)    “Flat File.” https://www.techopedia.com/definition/25956/flat-file, n.d., n.p., Web 14 Jul 2020.
 
 ### Additional useful articles:
