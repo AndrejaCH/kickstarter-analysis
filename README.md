@@ -14,7 +14,7 @@ In this project I am performing data analysis for the crowdfunding campaign ***K
 
 For this data analysis I am using ***MS Excel*** as a tool, including **interactive pivot tables and charts**, **conditional formatting**, **advanced filters** and various **advanced Excel formulas**.
 
-- all calculations refers to spreadsheet ![](Kickstarter_Challange.xlsx) and ![](StarterBook.xlsx) 
+:heavy_check_mark: All calculations refer to spreadsheets ![Kickstarter_Challange.xlsx](Kickstarter_Challange.xlsx) and ![StarterBook.xlsx](StarterBook.xlsx) 
 
 ### Purpose
 The purpose of this analysis is to help playwriter Louise with her decisions in applying for the crowdfunding campaign Kickstarter. Her campaign is a theater play *Fever* at an estimated cost of roughly *$10,000*. She is wondering where she stands with her goal, how successful are campaigns with a similar budget and when is a good time to launch the campaign. She is interested in the US and GB theater market, specifically in plays and musicals respectively; therefore, part of this analysis focuses on those fields as well.
@@ -36,7 +36,7 @@ From the chart, we can see that May and June are the best months to start the ca
 \** Percentage is calculated from the overall total campaigns.
 
 <p align="center">
-<img src="resources/Theater_Outcomes_vs_Launch.PNG" width="70%" height="50%">
+<img src="resources/Theater_Outcomes_vs_Launch.PNG" width="50%" height="50%">
 </p>
 
 
