@@ -135,7 +135,7 @@ As mentioned above clear communication is crucial and I am aware that this repor
 One of the technical problems I encounter was sorting the pivot table by descending or ascending order. I knew how to sort rows in the spreadsheet, but was unfamiliar with this task in pivot table. At first, I thought that sorting pivot table is not able to control. Thanks to the lecture I realized that I can control this, and saw how visualization looks organized by applying this feature.
 
 <p align="center">
-<img src="graphics/SortingPivotChart.PNG" width="40%" height="40%">
+<img src="graphics/SortingPivotChart.PNG" width="30%" height="30%">
 </p>
 
 #### Conditional Formatting
@@ -180,7 +180,7 @@ I was familiar with basic conditional formatting; however, when I started to do 
 :exclamation:When filter value is selected this information is not displayed on pivot chart.
 
 <p align="center">
-<img src="graphics/FilterDisplay.PNG" width="40%" height="40%">
+<img src="graphics/FilterDisplay.PNG" width="30%" height="30%">
 </p>
 
 If the chart is missing or lacking a descriptive title, especially when we save Pivot charts in separate directories apart from corresponding pivot tables, visualization can be misleading if we don't see which filter is selected. 
