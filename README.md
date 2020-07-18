@@ -12,12 +12,12 @@ In this project I am performing data analysis for the crowdfunding campaign ***K
 - [x] What measure of central tendency tell us about theater plays in the US? 
 - [x] What can quartiles and outliers analysis tell us about musicals in GB?
 
-For this data analysis I am using ***MS Excel*** as a tool, that includes **interactive pivot tables**, **interactive pivot charts**, **conditional formatting**, **advanced filters** and various **advanced Excel formulas**.
+For this data analysis I am using ***MS Excel*** as a tool, including **interactive pivot tables and charts**, **conditional formatting**, **advanced filters** and various **advanced Excel formulas**.
+
+- all calculations refers to spreadsheet ![](Kickstarter_Challange.xlsx) and ![](StarterBook.xlsx) 
 
 ### Purpose
-The purpose of this analysis is to help playwriter Louise with her decisions in applying for the crowdfunding campaign Kickstarter. Her campaign *Fever* is a theater play at an estimated cost of roughly *$10,000*. She is wondering where she stands with her goal, how successful are campaigns with a similar budget and when is a good time to launch the campaign. She is interested in the US and GB theater market, specifically in plays and musicals respectively; therefore, part of this analysis focuses on those fields as well.
-
-```In this report``` :bulb: ```symbol is used to guide Louise’s decision based on this data analysis.```
+The purpose of this analysis is to help playwriter Louise with her decisions in applying for the crowdfunding campaign Kickstarter. Her campaign is a theater play *Fever* at an estimated cost of roughly *$10,000*. She is wondering where she stands with her goal, how successful are campaigns with a similar budget and when is a good time to launch the campaign. She is interested in the US and GB theater market, specifically in plays and musicals respectively; therefore, part of this analysis focuses on those fields as well.
 
 <kbd>
 <p align="center">
@@ -25,11 +25,15 @@ The purpose of this analysis is to help playwriter Louise with her decisions in 
 </p>
 </kbd>
 
+```In this report``` :bulb: ```symbol is used to guide Louise’s decision based on this data analysis.```
+
 ## Analysis and Challenges
 ### Analysis of Outcomes Based on Launch Date
-In this analysis, I created an interactive pivot table and a line chart that can be filtered by parent category and years. The chart **Theater Outcomes Based on Launch Date** has months on x-axis and count of outcomes on y-axis. Pivot table and chart are created from the selection of the entire dataset. Next, I added selected variables by dragging and dropping into chart fields and set up filters on the data that I wanted to drill-down.
+In this analysis, I created an interactive pivot table and a line pivot chart that can be filtered by parent category and years. The chart **Theater Outcomes Based on Launch Date** has months on x-axis and count of outcomes on y-axis. Pivot table and chart are created from the selection of the entire dataset. Next, I added selected variables by dragging and dropping into chart fields and set up filters on the data that I wanted to drill-down.
 
-From the chart, we can see that May and June are the best months to start the campaign. There were 111 (67%) and 100 (65%) successful campaigns, respectively. The number of successful campaigns significantly declined in December; only 37 (49%) successful campaigns in this month. Moreover, May and June have a higher volume of campaigns, 166 (12%) and 153 (11%) respectively, while December has the lowest volume of campaigns at 75 (5%). Another interesting observation is the overall success rate of theater campaigns at 61%.
+From the chart, we can see that May and June are the best months to start the campaign. There were 111 (67%\*) and 100 (65%\*) successful campaigns, respectively. The number of successful campaigns significantly declined in December; only 37 (49%\*) successful campaigns in this month. Moreover, May and June have a higher volume of campaigns, 166 (12%\*) and 153 (11%\*) respectively, while December has the lowest volume of campaigns at 75 (5%\*). Another interesting observation is the overall success rate of theater campaigns at 61%\*.
+\* Percentages are calculated from the total campaigns within the same month.
+\** Percentage is calculated from the overall total campaigns.
 
 <p align="center">
 <img src="resources/Theater_Outcomes_vs_Launch.PNG" width="70%" height="50%">
@@ -71,10 +75,10 @@ In this analysis, I used pivot table and interactive stacked column chart that c
 This chart has set an additional filter *parent category*. With this **filter**, we can **drill-down** information that we are interested in. We can see how plays are performing against other campaigns in the same category. This is very helpful when we want to focus on specific fields – plays in this case.
 
 
-:bulb: ```This is another good news for playwriter Louise. So far, data analysis tells that Louise is in good standing, since plays have positive outcomes compare to other campaigns. Yet, there are some other statistical approaches that can reveal additional information.```
+:bulb: ```This is another good news for playwriter Louise. So far, data analysis tells that Louise is in good standing, since theater plays have positive outcomes compare to other campaigns. Yet, there are some other statistical approaches that can reveal additional information.```
 
 #### V-Look-Up Analysis for Specific Theater Plays in GB
-In this analysis, I used `VLOOKUP()` formula. This formula returns matches based on a key value. It is a powerful tool that can quickly find and return numbers of data in an organized table. In the link that follows is a table where we can find only selected data that we want to focus on for this particular analysis.
+In this analysis, I used `VLOOKUP()` formula. This formula returns matches based on a key value. It is a powerful tool that can quickly find and return numbers of data in an organized table. In the link that follows is a table where we can find selected data that we want to focus on for this particular analysis.
 
 ![Edinburg_Research](StarterBook.xlsx)
 
@@ -94,29 +98,26 @@ In this analysis, I used **measures of central tendency** to calculate mean and 
 
 >Failed campaigns are unsuccessful for reasons other than asking for too much money. In other words, if the failed projects were also getting a median pledge amount of around $3,000, it's possible that those that failed just asked for too high of a price. Since the median is much lower, there must be another factor keeping people from pledging to those unsuccessful projects (1). 
 
-- **IQR** ($8,000) of goals in failed campaigns **is 3-times the value of standard deviation** ($21,968), which points to extreme value(s). I used `MAX()` formula, which returns the maximum value of the chosen array, in this case, $180,000.
+- **IQR** ($8,000) of goals in failed campaigns **is 3-times the value of standard deviation** ($21,968), which points to extreme value(s). I used `MAX()` formula to check on the higest value. This formula returns the maximum value of the chosen array, in this case, $180,000.
  
 :bulb: ```This analysis is a bit game-changer for Louise’s campaign. The goal for her campaign is set too high, about twice the average of successful campaigns. This fact reduces the possibility for her success.```
  
 #### Box and Whiskers (Quartile and Outliers) Analysis for GB Musicals Market
-In this analysis I used the Box and Whiskers chart for GB Musical Market, to find any potential outliers, that might be irrelevant for our analysis. I compared campaign goals and pledges. Excel offers tools to create this plot fairly simple. The first step is selecting data we want to analyze from the dataset, next is to find a “Box and Whiskers” plots in Insert Tab and finally make any changes to the plot. 
-A full explanation about this plot is on the link that follows and findings are written below the link.
+In this analysis I used the Box and Whiskers chart, to find any potential outliers, that might be irrelevant for our analysis. I compared campaign goals and pledges. Excel offers great tools for creating this plot. The first step is selecting data we want to analyze from the dataset, next is to find a “Box and Whiskers” plots in Insert Tab and finally make any changes to the plot. 
 
 <p align="center">
 <img src="graphics/BoxandWhiskersGB.PNG" width="40%" height="40%">
 </p>
-
-![Box and Whiskers (Quartile and Outliers) Analysis for GB Musicals Market](graphics/BoxandWhiskers.pdf)
 
 From the plot we can read the following information:
 - Goal median is at £2,000 and indicates that 50% of campaigns are below this value.
 - Goal mean is at £4,000 and outside of IQR of amount pledged at £3,000.
 - The lower quartile of pledges lays on y-axis and indicates that 25% of those campaigns did not get any fundings.
 
-:bulb: ```Louise is interested in GB Musicals for her future campaign in GB at an estimated cost of £4,000. This analysis shows that she has better chances if she reduces her goal to around £2,000.```
+:bulb: ```Louise is interested in GB Musicals for her future campaign. She estimated cost of her future campaign at £4,000. This analysis shows that she has better chances if she reduces her goal to around £2,000.```
 
 ### Challenges and Difficulties Encountered
-I found the written part of the analysis the most challenging. It takes a lot of effort to tell a meaningful story and to write a clear and easy-to-understand analysis report. I did encounter some technical problems; however, the “coding” community have been helping me overcome those challenges. This community is very active and helpful, so thanks to @StackOverflow @BSC Lessons and #Slack community, making the technical part much easier. 
+I found the written part of the analysis the most challenging. It takes a lot of effort to tell a meaningful story and to write a clear and easy-to-understand analysis report. I did encounter some technical problems; however, the “coding” community have been helping me overcome those challenges. This community is very active and helpful, so thanks to **@StackOverflow** **@BSC Lessons** and **@Slack community**, making the technical part much easier. 
 
 #### Written Repot and understanding terminology
 This was my biggest challenge. I am aware how important is communication and I really wanted to give it a good start. I overcome this challenge to devote extra time to it, re-read lessons and pre-work and look for explanations in external articles. I believe that it will become easier over time and practice. Here is a piece of advice that I came across in modules: 
@@ -125,11 +126,11 @@ This was my biggest challenge. I am aware how important is communication and I r
 
 Seems pretty straight forward advice, but really makes analysis much easier. Also constantly asking myself questions as in: *What do I want to tell with this analysis? Do I understand the data on charts and tables? What this information is telling me? Is this information relevant or rather confusing?* had helped me stayed on the right path.
 
-#### Understanding the Measures of Central Tendency and Measures of Spread
-I do have a basic understanding of those measures; however, this time I wanted to gain a deeper understanding. Doing this analysis and reading more about had helped me better understand those measures and put them into practice. The way I overcome this challenge is reading about it, performing additional analysis, compare numbers, and looking for patterns.
+#### Markdown Language and GitHub commits
+
 
 #### Sorting Pivot Chart
-One of the technical problems I encounter was sorting the pivot table by descending or ascending order. I knew how to sort rows in the spreadsheet, but was unfamiliar with this task in pivot table. At first, I thought that sorting pivot table is not able to control. Thanks to the lecture I realized that I can control this and realized how visualization looks organized.
+One of the technical problems I encounter was sorting the pivot table by descending or ascending order. I knew how to sort rows in the spreadsheet, but was unfamiliar with this task in pivot table. At first, I thought that sorting pivot table is not able to control. Thanks to the lecture I realized that I can control this, and saw how visualization looks organized by applying this feature.
 
 <p align="center">
 <img src="graphics/SortingPivotChart.PNG" width="40%" height="40%">
