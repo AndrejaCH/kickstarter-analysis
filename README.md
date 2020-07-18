@@ -121,15 +121,15 @@ From the plot we can read the following information:
 ### Challenges and Difficulties Encountered
 I found the written part of the analysis the most challenging. It takes a lot of effort to tell a meaningful story and to write a clear and easy-to-understand analysis report. I did encounter some technical problems; however, the “coding” community have been helping me overcome those challenges. This community is very active and helpful, so thanks to **@StackOverflow** **@BSC Lessons** and **@Slack community**, making the technical part much easier. 
 
-#### Written Repot and understanding terminology
+#### Written Repot and Understanding Data
 This was my biggest challenge. I am aware how important is communication and I really wanted to give it a good start. I overcome this challenge to devote extra time to it, re-read lessons and pre-work and look for explanations in external articles. I believe that it will become easier over time and practice. Here is a piece of advice that I came across in modules: 
 
 > familiarize yourself with it [data] and get a sense of what you're working with (2).
 
 Seems pretty straight forward advice, but really makes analysis much easier. Also constantly asking myself questions as in: *What do I want to tell with this analysis? Do I understand the data on charts and tables? What this information is telling me? Is this information relevant or rather confusing?* had helped me stayed on the right path.
 
-#### Markdown Language and GitHub commits
-
+#### Markdown Language
+As mentioned above clear communication is crucial and I am aware that this report is just a beginning. At first, I struggled with markdown language, yet after a few trials and errors, I start noticing progress. After all, it is quite flexible and not too complicated. When the report was complete, I spend some time on fine-tuning. With every new correction, I learned something new and this was the exciting part! I learned that markdown language is somewhat similar to HTML and I would definitely like to learn it as well! This motivation had helped me overcome this challenge. 
 
 #### Sorting Pivot Chart
 One of the technical problems I encounter was sorting the pivot table by descending or ascending order. I knew how to sort rows in the spreadsheet, but was unfamiliar with this task in pivot table. At first, I thought that sorting pivot table is not able to control. Thanks to the lecture I realized that I can control this, and saw how visualization looks organized by applying this feature.
@@ -204,7 +204,7 @@ Adding additional filter to a table *Theater outcome based on launch date* (see 
 
 :pushpin: Pie charts and dot charts. We could use those charts for data that contain less information. For example for theater plays outcome. 
 
-## Resources
+## References
 (1)    “Module 1: Kickstarting with Excel., Measures of Central Tendency”, https://courses.bootcampspot.com/courses/200/pages/1-dot-5-1-measures-of-central-tendency?module_item_id=57341, Trilogy Education Services, 2000. Web 15 Jul 2020.)
 
 (2)    “Module 1: Kickstarting with Excel.” https://courses.bootcampspot.com/courses/200/pages/1-dot-2-2-initial-look-at-the-data?module_item_id=57314, Trilogy Education Services, 2000. Web 14 Jul 2020.
