@@ -3,7 +3,7 @@
 
 ## Overview of Project
 ### Background
-In this project I am performing data analysis for the crowdfunding campaign ***Kickstarter*** (from the year 2009 to 2017) in order to uncover trends, patterns or correlations in Kickstarter dataset, and answer the following questions:
+In this project I am performing data analysis for the ***Kickstarter*** crowdfunding campaigns (from the year 2009 to 2017) in order to uncover trends, patterns or correlations in Kickstarter dataset, and answer the following questions:
 - [x] Is there a correlation between time (month of the year) and campaign outcome?
 - [x] How successful are campaigns within a certain goal range?
 - [x] How successful are theater campaigns compare to other campaigns?
@@ -17,7 +17,7 @@ For this data analysis I am using ***MS Excel*** as a tool, including **interact
 :heavy_check_mark: All calculations refer to spreadsheets ![Kickstarter_Challange.xlsx](Kickstarter_Challange.xlsx) and ![StarterBook.xlsx](StarterBook.xlsx) 
 
 ### Purpose
-The purpose of this analysis is to help playwriter Louise with her decisions in applying for the crowdfunding campaign Kickstarter. Her campaign is a theater play *Fever* at an estimated cost of roughly *$10,000*. She is wondering where she stands with her goal, how successful are campaigns with a similar budget and when is a good time to launch the campaign. She is interested in the US and GB theater market, specifically in plays and musicals respectively; therefore, part of this analysis focuses on those fields as well.
+The purpose of this analysis is to help playwright Louise with her decisions in applying for the crowdfunding campaign on Kickstarter. Her campaign is a theater play *Fever* at an estimated cost of roughly *$10,000*. She is wondering where she stands with her goal, how successful are campaigns with a similar budget and when is a good time to launch the campaign. She is interested in the US and GB theater market, specifically in plays and musicals respectively; therefore, part of this analysis focuses on those fields as well.
 
 <kbd>
 <p align="center">
@@ -52,7 +52,7 @@ In this analysis, I created a table to count theater plays campaigns based on th
 <img src="resources/Outcomes_vs_Goals.png" width="70%" height="50%">
 </p>
 
-The table and chart *Outcomes Based on Goals* reveals which goal range has a higher % of successful campaigns. Campaigns with a goal of less than $1000 and a goal range between $5000 to $9999 have a higher success rate 76% and 73% respectively, while campaigns with the goal above $45,000 have a lower success rate at 13%.
+The table and chart *Outcomes Based on Goals* reveals which goal range has a higher % of successful campaigns. Campaigns with a goal of less than $1000 and a goal range between $1000 to $4999 have a higher success rate 76% and 73% respectively, while campaigns with the goal above $45,000 have a lower success rate at 13%.
 
 
 :bulb: ```Louise’s project falls in goal range between $10,000 and $15,000. The success rate in this range is 54%. However, the volume of total campaigns in this range is not very high. Only 72 (7%) campaigns are in this range. For comparison, one range below her budget ($5,000 to $9,999) has a similar success rate at 55%, and the volume at 169 (16%) total.```
@@ -74,7 +74,7 @@ In this analysis, I used pivot table and interactive stacked column chart that c
 <img src="graphics/Subcategory_Outcomes.png" width="40%" height="40%">  <img src="graphics/TheaterSubcategories_Outcomes.png" width="40%" height="40%">
 </p>
 
-This chart has set an additional filter *parent category*. With this **filter**, we can **drill-down** information that we are interested in. We can see how plays are performing against other campaigns in the same category. This is very helpful when we want to focus on specific fields – plays in this case.
+This chart has set an additional filter *parent category*. With this **filter**, we can **drill-down** to the information that we are interested in. We can see how plays are performing against other campaigns in the same category. This is very helpful when we want to focus on specific fields – plays in this case.
 
 
 :bulb: ```This is another good news for playwriter Louise. So far, data analysis tells that Louise is in good standing, since theater plays have positive outcomes compare to other campaigns. Yet, there are some other statistical approaches that can reveal additional information.```
@@ -119,27 +119,27 @@ From the plot we can read the following information:
 :bulb: ```Louise is interested in GB Musicals for her future campaign. She estimated cost of her future campaign at £4,000. This analysis shows that she has better chances if she reduces her goal to around £2,000.```
 
 ### Challenges and Difficulties Encountered
-I found the written part of the analysis the most challenging. It takes a lot of effort to tell a meaningful story and to write a clear and easy-to-understand analysis report. I did encounter some technical problems; however, the “coding” community have been helping me overcome those challenges. This community is very active and helpful, so thanks to **@StackOverflow** **@BSC Lessons** and **@Slack community**, making the technical part much easier. 
+I found the written part of the analysis the most challenging. It takes a lot of effort to tell a meaningful story and to write a clear and easy-to-understand analysis report. I did encounter some technical problems; however, the “coding” community has been helping me overcome those challenges. This community is very active and helpful, so thanks to **@StackOverflow**, **@BSC Lessons** and **@Slack community**, making the technical part much easier. 
 
-#### Written Repot and Understanding Data
-This was my biggest challenge. I am aware how important is communication and I really wanted to give it a good start. I overcome this challenge to devote extra time to it, re-read lessons and pre-work and look for explanations in external articles. I believe that it will become easier over time and practice. Here is a piece of advice that I came across in modules: 
+#### Written Report and Understanding Data
+This was my biggest challenge. I am aware how important communication is and I really wanted to give it a good start. I overcame this challenge by devoting extra time to it, re-read lessons and pre-work and looked for explanations in external articles. I believe that it will become easier over time and practice. Here is a piece of advice that I came across in modules: 
 
 > familiarize yourself with it [data] and get a sense of what you're working with (2).
 
-Seems pretty straight forward advice, but really makes analysis much easier. Also constantly asking myself questions as in: *What do I want to tell with this analysis? Do I understand the data on charts and tables? What this information is telling me? Is this information relevant or rather confusing?* had helped me stayed on the right path.
+It seems pretty straight-forward, but really made analysis much easier. Also constantly asking myself questions as in: *What do I want to tell with this analysis? Do I understand the data on charts and tables? What this information is telling me? Is this information relevant or rather confusing?* had helped me stayed on the right path.
 
 #### Markdown Language
-As mentioned above clear communication is crucial and I am aware that this report is just a beginning. At first, I struggled with markdown language, yet after a few trials and errors, I start noticing progress. After all, it is quite flexible and not too complicated. When the report was complete, I spend some time on fine-tuning. With every new correction, I learned something new and this was the exciting part! I learned that markdown language is somewhat similar to HTML and I would definitely like to learn it as well! This motivation had helped me overcome this challenge. 
+As mentioned above, clear communication is crucial and this report is just the beginning. At first, I struggled with markdown language, yet after a few trials and errors, I started noticing progress. After all, it is quite flexible and not too complicated. When the report was completed, I spent some time on fine-tuning. With every new correction, I learned something new and this was the exciting part! I learned that markdown language is somewhat similar to HTML and I would definitely like to learn it as well! This motivation has helped me overcome this challenge. 
 
 #### Sorting Pivot Chart
-One of the technical problems I encounter was sorting the pivot table by descending or ascending order. I knew how to sort rows in the spreadsheet, but was unfamiliar with this task in pivot table. At first, I thought that sorting pivot table is not able to control. Thanks to the lecture I realized that I can control this, and saw how visualization looks organized by applying this feature.
+One of the technical problems I encountered was sorting the pivot table by descending or ascending order. I knew how to sort rows in the spreadsheet, but was unfamiliar with this task in pivot table. At first, I thought that sorting pivot table is not possible at all. Thanks to the lecture I learned that I can sort pivot tables and charts and was surprised how organized and clean visualization looked by applying this feature.
 
 <p align="center">
 <img src="graphics/SortingPivotChart.PNG" width="30%" height="30%">
 </p>
 
 #### Conditional Formatting
-I was familiar with basic conditional formatting; however, when I started to do a bit more research on it, I discover a very convenient button `manage rules` that can be found in Home Tab -> Conditional Formatting drop-down menu -> Manage Rules. I was able to manage conditional formatting rules more efficiently.
+I was familiar with basic conditional formatting, yet I learend I was doing it "long-way". After going over some buttons in the ribbon and doing a bit more research on it, I discovered a very convenient button `manage rules`. It can be found in Home Tab -> Conditional Formatting drop-down menu -> Manage Rules. Now I am able to manage conditional formatting rules more efficiently.
 
 <p align="center">
 <img src="graphics/ManageRules.png" width="40%" height="40%">
@@ -159,7 +159,7 @@ I was familiar with basic conditional formatting; however, when I started to do 
 
 ### Conclusions about the Outcomes based on Goals for Theater Plays
 - [x] Campaigns with a set goal under $1,000 have a 76% success rate.
-- [x] Campaigns with a set goal between $5,000 to $9,999 have a 73% success rate.
+- [x] Campaigns with a set goal between $1,000 to $4999 have a 73% success rate.
 - [x] Campaigns with a set goal of over $50,000 have a 13% success rate.
 - [x] 96% of all campaigns are under a set goal of $25,000.
 - [x] 4% of all campaigns are above a set goal of $25,000.
