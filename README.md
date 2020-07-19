@@ -42,7 +42,7 @@ From the chart, we can see that May and June are the best months to start the ca
 </p>
 
 
-:bulb: ```This data analysis can help playwriter Louise decide when is a good time to start a campaign. She can plan accordingly in order to increase her chances of success.```
+:bulb: ```This data analysis can help playwright Louise decide when is a good time to start a campaign. She can plan accordingly in order to increase her chances of success.```
 
 
 ### Analysis of Outcomes Based on Goals
@@ -135,7 +135,7 @@ As mentioned above, clear communication is crucial and this report is just the b
 One of the technical problems I encountered was sorting the pivot table by descending or ascending order. I knew how to sort rows in the spreadsheet, but was unfamiliar with this task in pivot table. At first, I thought that sorting pivot table is not possible at all. Thanks to the lecture I learned that I can sort pivot tables and charts and was surprised how organized and clean visualization looked by applying this feature.
 
 <p align="center">
-<img src="graphics/SortingPivotChart.PNG" width="30%" height="30%">
+<img src="graphics/SortingPivotChart.PNG" width="25%" height="25%">
 </p>
 
 #### Conditional Formatting
