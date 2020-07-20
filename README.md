@@ -19,7 +19,7 @@ For this data analysis I am using ***MS Excel*** as a tool, including **interact
 (Please download the .xlsx files to see the full analysis.)
 </kbd>
 
-:yellow_circle: Headers marked with yellow circle are not part of the analysis for grading purposes.
+:large_blue_circle: Headers marked with blue circle are **not** part of the analysis for grading purposes.
 
 ### Purpose
 The purpose of this analysis is to help playwright Louise with her decisions in applying for the crowdfunding campaign on Kickstarter. Her campaign is a theater play *Fever* at an estimated cost of roughly *$10,000*. She is wondering where she stands with her goal, how successful are campaigns with a similar budget and when is a good time to launch the campaign. She is interested in the US and GB theater market, specifically in plays and musicals respectively; therefore, part of this analysis focuses on those fields as well.
@@ -62,8 +62,8 @@ The table and chart **Outcomes Based on Goals** reveals which goal range has a h
 
 :bulb: ```Louise’s project falls in goal range between $10,000 and $15,000. The success rate in this range is 54%. However, the volume of total campaigns in this range is not very high. Only 72 (7%) campaigns are in this range. For comparison, one range below her budget ($5,000 to $9,999) has a similar success rate at 55%, and the volume at 169 (16%) total campaigns.```
 
-### :yellow_circle: Other Support Analysis
-#### :yellow_circle: Parent Category Analysis
+### :large_blue_circle: Other Support Analysis
+#### :large_blue_circle: Parent Category Analysis
 In this analysis, I used pivot table and interactive stacked column chart that can be filtered by county and it is organized in descending order. **Parent Category Statistic** chart is simple, yet very descriptive and clearly shows how **theater** campaigns stand out against other categories. Theater campaigns have a higher volume of 1393 (34%) campaigns and a high success rate: 893 successful compare to 493 failed campaigns.
 
 <p align="center">
@@ -72,7 +72,7 @@ In this analysis, I used pivot table and interactive stacked column chart that c
 
 :bulb: ```Louise can confidently continue with planning for her theater campaign. However, let’s take a closer look at theater plays (specifically) in the next paragraph.```
 
-#### :yellow_circle: Subcategory Analysis
+#### :large_blue_circle: Subcategory Analysis
 In this analysis, I used pivot table and interactive stacked column chart that can be filtered by county and by parent category. From the chart, we can see that plays stand out, by volume and by success, with a total of 1066 projects (77%), and a high success rate of 694 successful campaigns compare to 353 failed campaigns.
 
 <p align="center">
@@ -84,7 +84,7 @@ This chart has set an additional filter *parent category*. With this **filter**,
 
 :bulb: ```This is another good news for playwriter Louise. So far, data analysis tells that Louise is in good standing, since theater plays have positive outcomes compare to other campaigns. Yet, there are some other statistical approaches that can reveal additional information.```
 
-#### :yellow_circle: V-Look-Up Analysis for Specific Theater Plays in GB
+#### :large_blue_circle: V-Look-Up Analysis for Specific Theater Plays in GB
 In this analysis, I used `VLOOKUP()` formula. This formula returns matches based on a key value. It is a powerful tool that can quickly find and return numbers of data in an organized table. The link that follows opens .xlsx file (worksheet: Edinburg_Research) where we can find only selected data that we want to focus on.
 
 ![Edinburg_Research](StarterBook.xlsx)
@@ -92,7 +92,7 @@ In this analysis, I used `VLOOKUP()` formula. This formula returns matches based
 
 :bulb: ```In this at-a-glance analysis, Louise can compare her own campaign with the plays she saw at the Edinburg Festival in GB. The table provides a quick look-up about goals and pledges, an average donation, and the number of backers.```
 
-#### :yellow_circle: Measure of Central Tendency Analysis for US Theater Plays Market
+#### :large_blue_circle: Measure of Central Tendency Analysis for US Theater Plays Market
 In this analysis, I used **measures of central tendency** to calculate mean and median, and **measures of spread** to calculate standard deviation, lower and upper quartiles, and IQR for US market in theater plays. I compared successful and failed campaigns based on their goals and pledges. Excel has integrated formulas to calculate these measures which make calculations fairly easy. Form the table below we can see the nature of these formulas.
 
 <p align="center">
@@ -109,7 +109,7 @@ In this analysis, I used **measures of central tendency** to calculate mean and 
  
 :bulb: ```This analysis is a bit game-changer for Louise’s campaign. The goal for her campaign is set too high, about twice the average of successful campaigns. This fact reduces the possibility for her success.```
  
-#### :yellow_circle: Box and Whiskers (Quartile and Outliers) Analysis for GB Musicals Market
+#### :large_blue_circle: Box and Whiskers (Quartile and Outliers) Analysis for GB Musicals Market
 In this analysis I used the Box and Whiskers chart, to find any potential outliers, that might be irrelevant for our analysis. I compared campaign goals and pledges. Excel offers great tools for creating this plot. The first step is selecting data we want to analyze from the dataset, next is to find a “Box and Whiskers” plots in Insert Tab and finally make any changes to the plot. 
 
 <p align="center">
@@ -218,7 +218,7 @@ Adding an additional filter to a table, for example, *Theater outcome based on l
 
 (4)    “Flat File.” https://www.techopedia.com/definition/25956/flat-file, n.d., n.p., Web 14 Jul 2020.
 
-### :yellow_circle: Additional useful articles
+### :large_blue_circle: Additional useful articles
 
 [Understanding Quartiles](https://www.investopedia.com/terms/q/quartile.asp#:~:text=First%20quartile%3A%20the%20lowest%2025,the%20highest%2025%25%20of%20numbers)
 
