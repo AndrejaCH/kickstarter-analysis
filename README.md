@@ -220,11 +220,9 @@ Adding an additional filter to a table, for example, *Theater outcome based on l
 
 ### :large_blue_circle: Additional useful articles
 
-[Understanding Quartiles](https://www.investopedia.com/terms/q/quartile.asp#:~:text=First%20quartile%3A%20the%20lowest%2025,the%20highest%2025%25%20of%20numbers)
-
-[Outliers](https://medium.com/mytake/why-1-5-in-iqr-method-of-outlier-detection-5d07fdc82097)
-
-[IQR](https://www.thoughtco.com/what-is-the-interquartile-range-rule-3126244)
+- [Understanding Quartiles](https://www.investopedia.com/terms/q/quartile.asp#:~:text=First%20quartile%3A%20the%20lowest%2025,the%20highest%2025%25%20of%20numbers)
+- [Outliers](https://medium.com/mytake/why-1-5-in-iqr-method-of-outlier-detection-5d07fdc82097)
+- [IQR](https://www.thoughtco.com/what-is-the-interquartile-range-rule-3126244)
 
  
 
