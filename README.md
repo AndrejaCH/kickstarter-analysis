@@ -1,7 +1,7 @@
 # Analysis of Kickstarter Campaigns
 *MS Excel data analysis to uncover trends.*
 
-## Overview of Project
+## Project Overview 
 ### Background
 In this project I am performing data analysis for the ***Kickstarter*** crowdfunding campaigns (from the year 2009 to 2017) in order to find trends, patterns or correlations in Kickstarter dataset, and answer the following questions:
 - [x] Is there a correlation between time (month of the year) and campaign outcome?
