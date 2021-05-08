@@ -172,7 +172,9 @@ I had some basic knowledge of conditional formatting, yet I learned I was doing 
 :heavy_check_mark: There are significant more campaigns with a set goal under $25,000 than campaigns above $25,000.
 
 ### Limitations of the dataset
-:exclamation:This dataset -- .xlsx or Excel file -- is a *flat-file* and is mainly used for preparatory data analysis and visualization. It is a great tool indeed since doesn’t require a specific query language to retrieve data, it is widely used and easy to learn. Excel is also very versatile since covers many fields of the data pipeline: exploratory data analysis, data validation, data visualization, and data analysis. These are great aspects but have some drawbacks as well. As mentioned above, Excel is a *flat-file* and by definition, a flat-file is a file where data is separated by commas or tabs, with one record per line without internal hierarchy (3); therefore, those files are not meant for deeper analysis rather for ‘at-a-glance summary metrics’ (4). 
+:exclamation: Excel is a great tool since doesn’t require a specific query language to retrieve data, it is widely used and easy to learn. Excel is also very versatile since covers many fields of the data pipeline: exploratory data analysis, data validation, data visualization, and data analysis. These are great aspects but have some drawbacks as well. 
+
+:exclamation: *flat-file* is mainly used for preparatory data analysis and visualization. By definition *flat-file* is a file where data is separated by commas or tabs, with one record per line without internal hierarchy (3); therefore, those files are not meant for deeper analysis rather for ‘at-a-glance summary metrics’ (4). 
 
 :exclamation:Excel files are easy to duplicate, and it is done more than has to be, what can lead to inaccuracy and referring to outdated data. Duplicates and multiple versions of datasets are one of the biggest issues of data accuracy.
 
