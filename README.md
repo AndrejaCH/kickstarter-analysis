@@ -1,5 +1,5 @@
 # Analysis of Kickstarter Campaigns
-*MS Excel data analysis using advanced Excel formulas and to uncover trends*
+*MS Excel data analysis using advanced Excel formulas to uncover trends*
 
 ## Project Overview 
 ### Background
