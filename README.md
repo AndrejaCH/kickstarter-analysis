@@ -12,7 +12,7 @@ In this project I am performing data analysis for the ***Kickstarter*** crowdfun
 - [x] What measure of central tendency tell us about theater plays in the US? 
 - [x] What can quartiles and outliers analysis tell us about musicals in GB?
 
-For this data analysis I am using ***MS Excel*** as a tool, including **interactive pivot tables and charts**, **conditional formatting**, **advanced filters** and various **advanced Excel formulas**.
+For this data analysis I am using ***MS Excel*** as a tool, including **interactive pivot tables and charts**, **conditional formatting**, **advanced filters**, **VLOOKUPs**, **COUNTIFS** and various **advanced Excel formulas**.
 
 :heavy_check_mark: All calculations refer to spreadsheets ![Kickstarter_Challange.xlsx](Kickstarter_Challange.xlsx) and ![StarterBook.xlsx](StarterBook.xlsx) 
 <kbd>
